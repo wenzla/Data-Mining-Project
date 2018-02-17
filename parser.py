@@ -28,21 +28,21 @@ soup = BeautifulSoup(totstring)
 bodies = list()
 topics = list()
 tags = list()
-topics1=list()
+
 bodies=soup.findAll("body")
-for body in bodies:
-    print(body.text)
+#for body in bodies:
+ #   print(body.text)
     
 topics=soup.findAll("topics")
 
     
-for item in soup.findAll('reuters'):
-    tags.append(item['lewissplit'])
+#for item in soup.findAll('reuters'):
+ #   tags.append(item['lewissplit'])
 
 #print(tags[0])
 outputstring=""
-#for topic in topics:
-  #  print(topic.text)
+for topic in topics:
+    print(topic.text)
     
 for x in range(0,len(bodies)):
     if topics[x].text=="":

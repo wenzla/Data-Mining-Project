@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 import os
 fileDir = os.path.dirname(os.path.realpath('__file__'))
 # The number below changes which files to parse. Use 22 to run all files
-numberOfFiles = 22
+numberOfFiles = 2
 
 # This function just makes it so we can iterate through the files so we don't have to run it
 # over and over again.

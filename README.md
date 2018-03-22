@@ -8,4 +8,3 @@ Group members (put names below):
 
 Allen Wenzl
 Kevin Truong
-Shraddha Sunil

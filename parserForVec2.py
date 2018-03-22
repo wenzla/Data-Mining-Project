@@ -63,9 +63,9 @@ def parseFile(filename):
 	print "Finished reading " + dataname
 	for x in range(0,len(titles)):
 		for title in titles[x]:
-			outputstring=outputstring + title + " "
+			outputstring=outputstring + title
 		#End For
-		outputstring=outputstring + ","
+		outputstring=outputstring + "\n"
 	#End For
 	#print (outputstring)
 	# Trims the last comma off of the outputstring

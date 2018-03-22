@@ -1,8 +1,28 @@
 # I confirmed that csv and re is importable on stdlinux
 import csv
 import re
+import math
 
 titles = list()
+
+# gets number of documents with term t in it (divisor in idf formula)
+idf = {}
+with open('titles.csv', 'r') as f:
+    for line in f:
+		words_in_line = re.findall(r'\w+', line)
+		used_words = []
+		for word in words_in_line:
+			if word not in used_words:
+				if word in idf:
+					idf[word] += 1
+				else:
+					idf[word] = 1
+				#End if
+			#End if
+			used_words.append(word)
+		#End if
+	#End for
+#End with
 
 #Gets all the words that are used as topics for an article
 with open('topics.csv', 'r') as f:
@@ -22,7 +42,9 @@ with open('titles.csv', 'r') as f:
     text = f.read()
 words = re.findall(r'\w+', text)
 word_counter = {}
+total_words = 0
 for word in words:
+	total_words += 1
 	if word in word_counter:
 		word_counter[word] += 1
 	else:
@@ -41,10 +63,41 @@ with open('titles.csv', 'r') as csvfile:
 for topic in popular_topics:
 	try:
 		popular_titles.remove(topic)
+		# the below line is so the tf-idf removes all topics too
+		word_counter.pop(topic)
 	except ValueError:
 		pass
 	#End Try	
 #End For
+
+total_num_docs = 2000
+tf_idf = []
+# Calculates tf-idf
+with open('titles.csv', 'r') as f:
+    for line in f:
+		words_in_line = re.findall(r'\w+', line)
+		length = len(words_in_line)
+		title_words = {}
+		if length > 0:
+			# gets words in each line
+			for word in words_in_line:
+				if word in title_words:
+					title_words[word] += 1
+				else:
+					title_words[word] = 1
+				#End if
+			#End for
+			# the actual calculation
+			tf_feature = {}
+			for word in title_words:
+				tf_feature[word] = ((float(title_words[word])/length) * (math.log10(total_num_docs/idf[word])))
+			#End for
+			tf_idf.append(tf_feature)
+		#End if
+	#End for
+#End with
+
+print(tf_idf)
 
 TopicFV = list()
 
@@ -73,4 +126,4 @@ for title in titles:
 #End For
 
 #Test
-print(TopicFV)
+#print(TopicFV)

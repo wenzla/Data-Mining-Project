@@ -189,7 +189,6 @@ for i in range(0,len(TitleFV)):
 	#end for
 #end for
 
-print("Done setting up classifier...")
 # Uses hold out method to verify accuracy
 # Also gets distances to other points
 TestFV = list()
@@ -288,6 +287,8 @@ for i in range(0,len(Test2FV)):
 	EuclideanDistance.append(distances)
 #end for
 
+print("Done setting up classifier...")
+
 #Do the K-nn classification with k = 1
 knnOne = []
 for i in range(0,len(EuclideanDistance)):
@@ -296,13 +297,13 @@ for i in range(0,len(EuclideanDistance)):
 
 print("Done classifying; calculating accuracy...")
 
-"""
-print("Guesses:")
+
+print("Guesses (Bayes; k-NN):")
 for i in range(0,len(guesses)):
-	string = "Test Article " + str(i+1) + ": " + ordered_probs[guesses[i]]
+	string = "Test Article " + str(i+1) + ": " + ordered_probs[guesses[i]] + '; ' + knnOne[i]
 	print(string)
 #end for
-"""
+
 
 numberCorrect = 0
 knnCorrect = 0
@@ -311,7 +312,9 @@ for i in range(0,len(testTopics)):
 	words = re.findall(r'\w+', testTopics[i])
 	if len(words) == 0:
 		numberCorrect += 1
-		knnCorrect += 1
+		if len(knnOne[i].split(',')) == 1:
+			knnCorrect += 1
+		#end if
 	else:
 		for word in words:
 			if word == ordered_probs[guesses[i]]:

@@ -73,9 +73,10 @@ def parseFile(filename):
 	outfile.write(outputstring)
 
 '''ACTUAL START OF APPLICATION'''
-outfile=open("titles.csv","w")
-for counter in range (0,numberOfFiles):
+outfile=open("titles3.csv","w")
+for counter in range (0,1):
 	dataNameString = makeString(counter)
+	dataNameString = '03'
 	dataname='Data/reut2-0' + dataNameString + '.sgm'
 	filename = os.path.join(fileDir, dataname)
 	print "Reading " + dataname + "... "

@@ -1,116 +1,116 @@
-cocoa 
+cocoa,
 
 
 
-grain wheat corn barley oat sorghum 
-vegoil linseed linoil soyoil sunoil soybean oilseed corn sunseed grain sorghum wheat 
+grain,wheat,corn,barley,oat,sorghum,
+vegoil,linseed,linoil,soyoil,sunoil,soybean,oilseed,corn,sunseed,grain,sorghum,wheat,
 
 
-earn 
-acq 
-earn 
-earn acq 
-earn 
-earn 
+earn,
+acq,
+earn,
+earn,acq,
+earn,
+earn,
 
 
 
-earn 
-wheat grain 
+earn,
+wheat,grain,
 
 
-copper 
-earn 
-earn 
+copper,
+earn,
+earn,
 
 
-earn 
+earn,
 
-housing 
-moneysupply 
+housing,
+moneysupply,
 
 
 
 
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
-earn 
-coffee 
+earn,
+earn,
+coffee,
 
-acq ship 
-acq 
-sugar 
-trade 
-reserves 
-ship 
-earn 
+acq,ship,
+acq,
+sugar,
+trade,
+reserves,
+ship,
+earn,
 
 
-earn 
+earn,
 
 
-earn 
-grain corn 
-moneysupply 
-ship 
+earn,
+grain,corn,
+moneysupply,
+ship,
 
 
 
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-acq 
-vegoil soybean oilseed mealfeed soymeal 
+acq,
+vegoil,soybean,oilseed,mealfeed,soymeal,
 
-earn 
+earn,
 
 
-earn 
-coffee 
-moneysupply 
-moneysupply 
-moneysupply 
+earn,
+coffee,
+moneysupply,
+moneysupply,
+moneysupply,
 
-moneysupply 
-moneysupply 
-earn 
-earn 
+moneysupply,
+moneysupply,
+earn,
+earn,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
+earn,
 
 
-moneysupply 
-earn 
-moneysupply 
-moneysupply 
-acq 
-grain wheat corn oat rye sorghum soybean oilseed 
-earn 
-moneysupply 
-moneysupply 
-moneysupply 
-moneysupply 
-moneysupply 
-cotton 
-sugar 
-grain ship 
+moneysupply,
+earn,
+moneysupply,
+moneysupply,
+acq,
+grain,wheat,corn,oat,rye,sorghum,soybean,oilseed,
+earn,
+moneysupply,
+moneysupply,
+moneysupply,
+moneysupply,
+moneysupply,
+cotton,
+sugar,
+grain,ship,
 
-earn 
-moneysupply 
-acq 
-moneysupply 
+earn,
+moneysupply,
+acq,
+moneysupply,
 
-earn 
+earn,
 
 
 
@@ -118,311 +118,311 @@ earn
 
 
 
-carcass livestock 
+carcass,livestock,
 
-earn 
-grain 
-acq 
-earn 
-crude 
-acq 
-earn 
-earn 
+earn,
+grain,
+acq,
+earn,
+crude,
+acq,
+earn,
+earn,
 
-moneysupply 
-moneysupply 
-acq 
-acq 
-grain 
+moneysupply,
+moneysupply,
+acq,
+acq,
+grain,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
-earn 
-crude 
-earn 
-earn 
-earn 
+earn,
+earn,
+crude,
+earn,
+earn,
+earn,
 
 
 
-earn 
-earn 
-acq 
+earn,
+earn,
+acq,
 
 
 
-acq 
+acq,
 
 
-earn 
+earn,
 
-acq 
-earn 
-earn 
-earn 
-earn 
-earn 
-earn 
-earn 
+acq,
+earn,
+earn,
+earn,
+earn,
+earn,
+earn,
+earn,
 
 
 
 
 
 
-natgas 
+natgas,
 
 
-cpi gnp 
-grain wheat 
+cpi,gnp,
+grain,wheat,
 
 
-earn 
+earn,
 
-acq 
-acq 
-earn 
+acq,
+acq,
+earn,
 
-crude 
+crude,
 
-crude 
+crude,
 
-grain corn 
-crude 
+grain,corn,
+crude,
 
-earn 
-grain corn oat 
-moneysupply 
-acq 
-vegoil oilseed mealfeed soybean soyoil soymeal 
-earn 
-earn 
-moneysupply 
+earn,
+grain,corn,oat,
+moneysupply,
+acq,
+vegoil,oilseed,mealfeed,soybean,soyoil,soymeal,
+earn,
+earn,
+moneysupply,
 
 
 
 
 
-cpi gnp 
-earn 
-crude 
-earn 
-cpi 
-earn 
+cpi,gnp,
+earn,
+crude,
+earn,
+cpi,
+earn,
 
-moneysupply 
+moneysupply,
 
 
 
-moneysupply 
-moneyfx interest 
+moneysupply,
+moneyfx,interest,
 
 
 
-interest 
+interest,
 
-gnp bop 
-grain rice 
-soybean redbean oilseed 
+gnp,bop,
+grain,rice,
+soybean,redbean,oilseed,
 
 
-coffee 
-interest 
+coffee,
+interest,
 
-grain wheat rice vegoil soybean sugar rubber copracake corn palmoil palmkernel coffee tea plywood soymeal cotton 
-crude 
-crude 
+grain,wheat,rice,vegoil,soybean,sugar,rubber,copracake,corn,palmoil,palmkernel,coffee,tea,plywood,soymeal,cotton,
+crude,
+crude,
 
 
 
-grain wheat 
-crude 
+grain,wheat,
+crude,
 
 
 
-crude 
-moneyfx 
-crude 
-coffee 
+crude,
+moneyfx,
+crude,
+coffee,
 
 
 
-grain wheat 
-grain wheat 
+grain,wheat,
+grain,wheat,
 
-moneyfx 
+moneyfx,
 
 
-sugar 
-acq 
+sugar,
+acq,
 
 
 
 
 
 
-mealfeed copracake 
+mealfeed,copracake,
 
 
 
-trade 
-alum 
-crude 
-vegoil palmoil 
-tea cocoa coffee 
+trade,
+alum,
+crude,
+vegoil,palmoil,
+tea,cocoa,coffee,
 
 
 
-earn 
+earn,
 
-ship 
+ship,
 
-reserves 
-reserves 
+reserves,
+reserves,
 
 
 
 
 
-coffee 
+coffee,
 
 
-sugar 
+sugar,
 
 
-moneyfx interest 
-oilseed soybean 
-acq 
-earn 
+moneyfx,interest,
+oilseed,soybean,
+acq,
+earn,
 
 
-acq 
-oilseed soybean mealfeed soymeal 
-acq 
+acq,
+oilseed,soybean,mealfeed,soymeal,
+acq,
 
 
-moneyfx interest 
+moneyfx,interest,
 
-gold platinum strategicmetal 
-mealfeed tapioca 
-tin 
-trade bop 
-oilseed sunseed soybean rapeseed vegoil soyoil palmoil groundnutoil 
-gold 
-acq 
+gold,platinum,strategicmetal,
+mealfeed,tapioca,
+tin,
+trade,bop,
+oilseed,sunseed,soybean,rapeseed,vegoil,soyoil,palmoil,groundnutoil,
+gold,
+acq,
 
-earn 
+earn,
 
 
-vegoil rapeoil palmoil 
+vegoil,rapeoil,palmoil,
 
-interest 
-reserves 
+interest,
+reserves,
 
 
 
-mealfeed soymeal tapioca grain corn cornglutenfeed citruspulp oilseed rapeseed rapemeal 
+mealfeed,soymeal,tapioca,grain,corn,cornglutenfeed,citruspulp,oilseed,rapeseed,rapemeal,
 
 
-moneysupply 
-acq 
-vegoil palmoil 
+moneysupply,
+acq,
+vegoil,palmoil,
 
-acq 
+acq,
 
-moneyfx interest 
+moneyfx,interest,
 
-trade 
+trade,
 
 
-moneyfx interest 
-trade 
-sugar 
+moneyfx,interest,
+trade,
+sugar,
 
-earn 
-strategicmetal 
+earn,
+strategicmetal,
 
 
-crude 
+crude,
 
 
-crude 
-crude 
-trade 
+crude,
+crude,
+trade,
 
-earn 
+earn,
 
 
 
 
-acq 
-acq 
+acq,
+acq,
 
 
 
-acq 
+acq,
 
-crude ship 
-acq 
+crude,ship,
+acq,
 
-acq 
-acq 
+acq,
+acq,
 
-cotton 
+cotton,
 
-acq 
-alum 
-earn 
-acq 
+acq,
+alum,
+earn,
+acq,
 
-earn 
+earn,
 
-acq 
+acq,
 
 
 
-acq 
-earn 
-acq 
-earn 
+acq,
+earn,
+acq,
+earn,
 
-earn 
-acq 
+earn,
+acq,
 
-grain wheat corn barley 
-earn 
+grain,wheat,corn,barley,
+earn,
 
-acq 
-earn 
-acq 
-acq 
-coffee 
+acq,
+earn,
+acq,
+acq,
+coffee,
 
-earn 
-earn 
-earn 
-earn 
-acq 
-earn 
-earn 
-moneyfx interest 
+earn,
+earn,
+earn,
+earn,
+acq,
+earn,
+earn,
+moneyfx,interest,
 
 
 
 
-reserves 
-grain oat 
-acq 
+reserves,
+grain,oat,
+acq,
 
-earn 
+earn,
 
-earn 
-earn 
-acq 
-grain wheat wool dlr 
+earn,
+earn,
+acq,
+grain,wheat,wool,dlr,
 
 
 
@@ -432,134 +432,134 @@ grain wheat wool dlr
 
 
 
-earn 
-acq 
+earn,
+acq,
 
-earn 
-earn 
-acq 
-acq 
-acq 
-livestock lcattle 
-retail 
+earn,
+earn,
+acq,
+acq,
+acq,
+livestock,lcattle,
+retail,
 
 
-acq 
-gold acq platinum 
-earn 
-ipi 
+acq,
+gold,acq,platinum,
+earn,
+ipi,
 
 
 
 
-earn 
-earn 
+earn,
+earn,
 
 
-crude 
+crude,
 
-earn 
+earn,
 
 
-earn 
+earn,
 
-earn 
-acq 
+earn,
+acq,
 
 
-earn 
+earn,
 
 
-earn acq 
-acq 
-moneyfx interest 
+earn,acq,
+acq,
+moneyfx,interest,
 
 
-acq 
+acq,
 
-earn 
+earn,
 
 
-earn 
-earn 
+earn,
+earn,
 
-oilseed 
+oilseed,
 
-gold silver 
-crude 
-earn 
+gold,silver,
+crude,
+earn,
 
 
 
-earn 
+earn,
 
-acq 
-acq 
-acq 
+acq,
+acq,
+acq,
 
 
-grain corn wheat barley 
-crude 
+grain,corn,wheat,barley,
+crude,
 
-acq 
-acq 
-earn 
+acq,
+acq,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
-crude 
-earn 
-earn 
-earn 
+crude,
+earn,
+earn,
+earn,
 
-grain corn 
-earn 
-ship 
-moneyfx interest 
+grain,corn,
+earn,
+ship,
+moneyfx,interest,
 
-earn 
-moneyfx interest 
+earn,
+moneyfx,interest,
 
-earn 
-ironsteel 
+earn,
+ironsteel,
 
 
-earn 
-earn 
-earn 
-earn 
-acq 
-earn 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
+earn,
+acq,
+earn,
+earn,
+earn,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
+earn,
 
-crude 
-natgas 
-acq 
-earn 
-acq 
-earn 
+crude,
+natgas,
+acq,
+earn,
+acq,
+earn,
 
-acq 
-acq 
-earn 
-acq 
-earn 
-earn 
+acq,
+acq,
+earn,
+acq,
+earn,
+earn,
 
-earn 
-acq 
-acq 
-earn 
+earn,
+acq,
+acq,
+earn,
 
-coffee 
+coffee,
 
 
 
@@ -674,130 +674,130 @@ coffee
 
 
 
-ship 
+ship,
 
-acq 
-earn 
+acq,
+earn,
 
-acq 
+acq,
 
-sugar 
-rubber 
-earn 
-earn 
-tin 
-earn 
-earn 
-earn 
-earn 
-earn 
-oilseed grain soybean wheat corn 
-earn 
-earn 
-gold 
-earn 
-earn 
-earn 
-earn 
-earn 
-acq 
-crude 
+sugar,
+rubber,
+earn,
+earn,
+tin,
+earn,
+earn,
+earn,
+earn,
+earn,
+oilseed,grain,soybean,wheat,corn,
+earn,
+earn,
+gold,
+earn,
+earn,
+earn,
+earn,
+earn,
+acq,
+crude,
 
-acq 
-earn 
-crude natgas 
-acq 
+acq,
+earn,
+crude,natgas,
+acq,
 
 
-acq 
+acq,
 
-acq 
-earn 
+acq,
+earn,
 
 
-trade 
+trade,
 
 
 
-earn 
+earn,
 
-acq 
-acq 
+acq,
+acq,
 
 
-earn 
+earn,
 
-earn acq 
-earn 
-acq 
-acq 
-earn 
-acq 
-acq 
+earn,acq,
+earn,
+acq,
+acq,
+earn,
+acq,
+acq,
 
 
-earn 
+earn,
 
-acq 
-grain wheat 
-earn 
+acq,
+grain,wheat,
+earn,
 
-acq 
+acq,
 
 
-acq 
+acq,
 
 
 
 
 
-coffee 
+coffee,
 
-earn 
-acq 
-earn 
+earn,
+acq,
+earn,
 
 
 
-acq 
+acq,
 
-acq 
+acq,
 
 
-acq 
-acq 
+acq,
+acq,
 
 
 
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
+earn,
 
-earn 
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
+earn,
 
 
 
-acq 
+acq,
 
 
 
-crude 
+crude,
 
-copper 
+copper,
 
 
 
-acq 
-livestock hog 
+acq,
+livestock,hog,
 
-copper 
+copper,
 
 
 
@@ -808,16 +808,16 @@ copper
 
 
 
-earn 
+earn,
 
 
 
 
-copper 
-earn 
-earn 
+copper,
+earn,
+earn,
 
-acq 
+acq,
 
 
 
@@ -825,769 +825,769 @@ acq
 
 
 
-earn 
-propane heat gas 
-moneysupply 
+earn,
+propane,heat,gas,
+moneysupply,
 
 
-vegoil soyoil oilseed soybean 
-heat 
-crude 
-acq 
-earn 
+vegoil,soyoil,oilseed,soybean,
+heat,
+crude,
+acq,
+earn,
 
-moneysupply 
-acq 
+moneysupply,
+acq,
 
-coffee 
-gnp trade 
-acq 
+coffee,
+gnp,trade,
+acq,
 
-earn 
+earn,
 
-earn 
-acq 
-acq 
-acq 
-earn 
-acq 
+earn,
+acq,
+acq,
+acq,
+earn,
+acq,
 
-grain oat corn oilseed soybean 
-grain wheat 
-ship 
+grain,oat,corn,oilseed,soybean,
+grain,wheat,
+ship,
 
-earn 
+earn,
 
-earn 
+earn,
 
 
 
-earn 
-earn 
-jobs 
-earn 
+earn,
+earn,
+jobs,
+earn,
 
-lei 
+lei,
 
-moneyfx yen dlr 
-crude 
-grain wheat 
-coffee 
+moneyfx,yen,dlr,
+crude,
+grain,wheat,
+coffee,
 
 
 
-earn 
-bop 
+earn,
+bop,
 
-acq 
-earn 
-rubber 
-vegoil palmoil 
-earn 
-earn 
+acq,
+earn,
+rubber,
+vegoil,palmoil,
+earn,
+earn,
 
-jobs 
-bop 
+jobs,
+bop,
 
 
 
-trade 
-jobs 
-reserves 
-bop 
+trade,
+jobs,
+reserves,
+bop,
 
-earn 
-interest 
-interest 
+earn,
+interest,
+interest,
 
-moneyfx 
-acq 
+moneyfx,
+acq,
 
 
 
-tin 
+tin,
 
 
 
 
-moneyfx interest 
+moneyfx,interest,
 
-moneyfx saudriyal 
+moneyfx,saudriyal,
 
 
-crude 
+crude,
 
-earn 
-earn alum 
-earn 
+earn,
+earn,alum,
+earn,
 
-trade 
-trade 
-interest moneyfx 
+trade,
+trade,
+interest,moneyfx,
 
 
-cpi 
-crude 
+cpi,
+crude,
 
-acq 
+acq,
 
-grain corn 
+grain,corn,
 
 
-reserves 
-earn alum 
-acq 
-moneysupply 
-acq 
-interest moneyfx 
-moneyfx interest 
-vegoil palmoil 
-crude 
+reserves,
+earn,alum,
+acq,
+moneysupply,
+acq,
+interest,moneyfx,
+moneyfx,interest,
+vegoil,palmoil,
+crude,
 
 
 
-earn 
+earn,
 
 
-crude 
-moneyfx interest 
+crude,
+moneyfx,interest,
 
-jobs 
+jobs,
 
 
-earn 
+earn,
 
-acq 
+acq,
 
 
-acq 
+acq,
 
 
 
 
-earn 
-ship 
+earn,
+ship,
 
-earn 
-lei 
+earn,
+lei,
 
-lei 
+lei,
 
-earn 
-coffee 
-acq 
+earn,
+coffee,
+acq,
 
 
-earn 
-acq 
-earn 
-earn 
-acq 
-earn 
+earn,
+acq,
+earn,
+earn,
+acq,
+earn,
 
-earn crude 
+earn,crude,
 
 
-trade 
+trade,
 
 
 
-earn 
+earn,
 
 
-earn 
-moneyfx interest 
-acq 
+earn,
+moneyfx,interest,
+acq,
 
 
-earn 
+earn,
 
 
 
-earn 
-moneyfx interest 
-earn 
-earn 
-earn 
+earn,
+moneyfx,interest,
+earn,
+earn,
+earn,
 
-earn 
+earn,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
-acq 
+earn,
+acq,
 
-trade 
-lei 
-earn 
+trade,
+lei,
+earn,
 
-coffee crude 
+coffee,crude,
 
 
-acq 
-coffee 
+acq,
+coffee,
 
-acq 
-earn 
+acq,
+earn,
 
-housing 
-housing 
+housing,
+housing,
 
 
-acq 
-jobs 
+acq,
+jobs,
 
 
 
-earn 
+earn,
 
 
-earn 
+earn,
 
-gnp 
-bop 
+gnp,
+bop,
 
-ship 
+ship,
 
 
 
 
-grain wheat 
-gnp 
-earn 
+grain,wheat,
+gnp,
+earn,
 
 
 
-earn 
+earn,
 
-earn 
-earn 
-grain wheat barley 
-gnp 
-grain wheat 
-earn 
-earn 
-gold 
+earn,
+earn,
+grain,wheat,barley,
+gnp,
+grain,wheat,
+earn,
+earn,
+gold,
 
-acq 
+acq,
 
-acq 
-zinc 
-interest 
-ipi 
-earn 
+acq,
+zinc,
+interest,
+ipi,
+earn,
 
-gold 
+gold,
 
-earn 
-coffee 
+earn,
+coffee,
 
-earn 
-moneyfx 
+earn,
+moneyfx,
 
-earn 
-earn 
+earn,
+earn,
 
 
-grain wheat 
+grain,wheat,
 
-earn 
+earn,
 
 
-acq 
-bop 
-earn 
-gnp 
-acq 
-acq 
-earn 
+acq,
+bop,
+earn,
+gnp,
+acq,
+acq,
+earn,
 
 
-earn 
-earn 
-vegoil livestock carcass 
-earn 
-moneyfx interest 
+earn,
+earn,
+vegoil,livestock,carcass,
+earn,
+moneyfx,interest,
 
 
 
 
-earn 
-acq 
+earn,
+acq,
 
-interest 
+interest,
 
-earn 
-acq 
-earn 
-interest 
+earn,
+acq,
+earn,
+interest,
 
 
-earn 
+earn,
 
 
-grain corn sorghum 
+grain,corn,sorghum,
 
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
 
 
 
-earn 
+earn,
 
 
 
-cpi 
-copper 
+cpi,
+copper,
 
 
-oilseed rapeseed 
-earn 
-acq 
-moneyfx interest 
+oilseed,rapeseed,
+earn,
+acq,
+moneyfx,interest,
 
-ironsteel 
-earn 
-ipi 
-acq 
-earn 
+ironsteel,
+earn,
+ipi,
+acq,
+earn,
 
 
 
-acq 
+acq,
 
 
-earn 
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
 
-earn 
-reserves 
+earn,
+reserves,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
 
-earn 
-earn 
+earn,
+earn,
 
-copper 
-grain wheat 
+copper,
+grain,wheat,
 
 
-earn 
+earn,
 
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
 
 
-trade 
-earn 
-trade 
-earn 
-trade 
+trade,
+earn,
+trade,
+earn,
+trade,
 
-acq 
+acq,
 
-earn 
+earn,
 
-coffee 
-earn 
-acq 
-trade 
-vegoil 
-coffee 
-acq 
+coffee,
+earn,
+acq,
+trade,
+vegoil,
+coffee,
+acq,
 
-mealfeed soymeal grain corn 
-sugar 
-acq 
+mealfeed,soymeal,grain,corn,
+sugar,
+acq,
 
 
-acq 
+acq,
 
 
 
 
-earn 
-trade 
+earn,
+trade,
 
-acq 
-earn 
+acq,
+earn,
 
 
 
 
-earn 
+earn,
 
 
 
-acq 
-earn 
+acq,
+earn,
 
 
 
-acq 
-earn 
-earn 
-coffee 
+acq,
+earn,
+earn,
+coffee,
 
 
 
 
-earn 
-earn 
+earn,
+earn,
 
 
 
 
-grain wheat ship 
-earn 
+grain,wheat,ship,
+earn,
 
-earn 
+earn,
 
 
-alum 
-earn 
-earn 
+alum,
+earn,
+earn,
 
 
-grain corn 
-earn 
+grain,corn,
+earn,
 
-earn 
-gnp 
-grain corn 
+earn,
+gnp,
+grain,corn,
 
 
-acq 
-earn 
+acq,
+earn,
 
 
-acq 
+acq,
 
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
 
-acq 
-acq 
-earn 
+acq,
+acq,
+earn,
 
-grain wheat 
+grain,wheat,
 
 
-earn 
-grain 
-alum 
-earn 
+earn,
+grain,
+alum,
+earn,
 
-acq 
+acq,
 
 
-crude 
+crude,
 
-moneysupply 
+moneysupply,
 
 
-earn 
-coffee 
-earn 
-earn 
-earn 
-acq 
-earn 
+earn,
+coffee,
+earn,
+earn,
+earn,
+acq,
+earn,
 
 
-earn 
+earn,
 
-earn 
+earn,
 
-crude 
+crude,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
 
-crude 
-alum 
+crude,
+alum,
 
 
-crude 
+crude,
 
 
 
-earn 
-acq 
-earn 
-earn 
-crude 
-earn 
-earn 
+earn,
+acq,
+earn,
+earn,
+crude,
+earn,
+earn,
 
-trade 
+trade,
 
 
-orange 
-earn 
+orange,
+earn,
 
 
-acq 
-earn 
-trade 
+acq,
+earn,
+trade,
 
 
-earn 
-earn 
-orange 
+earn,
+earn,
+orange,
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
-grain corn sorghum 
+grain,corn,sorghum,
 
 
-livestock carcass 
+livestock,carcass,
 
 
-earn 
+earn,
 
-grain wheat 
-earn 
-earn 
+grain,wheat,
+earn,
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
-wheat corn 
+earn,
+wheat,corn,
 
-crude 
-grain wheat 
+crude,
+grain,wheat,
 
 
-earn 
+earn,
 
-livestock carcass 
-oilseed soybean 
-grain corn 
-grain wheat 
+livestock,carcass,
+oilseed,soybean,
+grain,corn,
+grain,wheat,
 
-livestock carcass 
-grain corn 
+livestock,carcass,
+grain,corn,
 
 
 
 
-earn 
-grain cotton wheat oat oilseed soybean 
-grain 
-carcass 
+earn,
+grain,cotton,wheat,oat,oilseed,soybean,
+grain,
+carcass,
 
-acq 
+acq,
 
 
-acq 
+acq,
 
-earn 
+earn,
 
 
 
 
 
-earn 
-moneyfx interest 
+earn,
+moneyfx,interest,
 
 
 
-acq 
+acq,
 
-interest 
-earn 
-acq 
+interest,
+earn,
+acq,
 
 
 
-earn 
-earn 
-earn 
-sugar 
+earn,
+earn,
+earn,
+sugar,
 
-earn 
+earn,
 
-sugar 
+sugar,
 
 
 
-rubber 
-earn 
-earn 
+rubber,
+earn,
+earn,
 
 
-earn 
+earn,
 
 
-earn 
+earn,
 
 
 
-earn 
-moneyfx 
+earn,
+moneyfx,
 
 
-earn 
-earn 
+earn,
+earn,
 
 
 
 
-earn 
-earn 
+earn,
+earn,
 
-earn 
+earn,
 
-earn 
+earn,
 
 
 
 
 
-acq 
-trade 
+acq,
+trade,
 
-acq 
+acq,
 
 
-earn 
+earn,
 
 
 
 
-earn 
+earn,
 
 
 
-earn 
-petchem 
-earn 
+earn,
+petchem,
+earn,
 
-earn 
-acq 
-earn 
-trade 
-acq 
+earn,
+acq,
+earn,
+trade,
+acq,
 
-earn 
-moneyfx interest 
+earn,
+moneyfx,interest,
 
 
-acq 
+acq,
 
-earn 
+earn,
 
 
 
-acq 
+acq,
 
-dlr moneyfx 
+dlr,moneyfx,
 
 
 
 
-sugar 
-gas 
-crude 
+sugar,
+gas,
+crude,
 
 
-earn 
-earn 
-earn 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
+earn,
+earn,
+earn,
 
 
-earn 
-moneyfx dlr 
+earn,
+moneyfx,dlr,
 
-rubber 
-earn 
-sugar 
+rubber,
+earn,
+sugar,
 
 
 
-earn 
+earn,
 
-earn 
+earn,
 
-earn 
-earn 
+earn,
+earn,
 
 
 
-cpi 
+cpi,
 
 
-interest moneyfx 
-earn 
-earn 
-crude ship 
-livestock carcass grain 
+interest,moneyfx,
+earn,
+earn,
+crude,ship,
+livestock,carcass,grain,
 
 
-moneyfx interest 
+moneyfx,interest,
 
-acq 
-earn 
-earn 
+acq,
+earn,
+earn,
 
-earn 
-earn 
-earn 
-earn 
-grain wheat 
-earn 
-earn 
+earn,
+earn,
+earn,
+earn,
+grain,wheat,
+earn,
+earn,
 
 
-earn 
+earn,
 
-acq 
+acq,
 
-coffee 
+coffee,
 
-acq 
-grain corn sorghum oilseed sunseed soybean 
+acq,
+grain,corn,sorghum,oilseed,sunseed,soybean,
 
-acq 
-earn 
-earn 
+acq,
+earn,
+earn,
 
-trade 
+trade,
 
-grain wheat cotton rice 
+grain,wheat,cotton,rice,
 
 
 
@@ -1595,105 +1595,105 @@ grain wheat cotton rice
 
 
 
-sugar 
+sugar,
 
 
-acq 
-earn 
+acq,
+earn,
 
 
 
-acq 
-gold copper 
-earn 
+acq,
+gold,copper,
+earn,
 
-earn 
-bop trade gnp 
+earn,
+bop,trade,gnp,
 
 
 
 
-crude 
+crude,
 
 
-natgas 
-earn 
+natgas,
+earn,
 
-acq 
-grain 
+acq,
+grain,
 
 
-acq 
+acq,
 
-acq 
+acq,
 
 
-grain 
+grain,
 
-earn 
-acq 
+earn,
+acq,
 
 
 
-earn 
-earn 
-grain wheat 
+earn,
+earn,
+grain,wheat,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
 
 
-earn 
-acq 
-earn 
-earn 
-grain barley corn 
-earn 
+earn,
+acq,
+earn,
+earn,
+grain,barley,corn,
+earn,
 
-earn 
-trade 
-earn 
-earn 
-acq 
-gas fuel 
-natgas crude 
+earn,
+trade,
+earn,
+earn,
+acq,
+gas,fuel,
+natgas,crude,
 
 
 
-acq 
-acq 
-acq 
+acq,
+acq,
+acq,
 
 
 
 
 
-acq 
-grain wheat 
-trade 
-acq 
-earn 
-acq 
-acq 
-trade 
-cpi 
-earn 
+acq,
+grain,wheat,
+trade,
+acq,
+earn,
+acq,
+acq,
+trade,
+cpi,
+earn,
 
-acq 
+acq,
 
-crude 
+crude,
 
-earn 
-earn 
+earn,
+earn,
 
 
-crude 
-acq 
-acq 
+crude,
+acq,
+acq,
 
-earn 
+earn,
 
 
 
@@ -1703,125 +1703,125 @@ earn
 
 
 
-earn 
+earn,
 
-earn 
-crude natgas 
+earn,
+crude,natgas,
 
-crude 
+crude,
 
 
-earn 
-coffee 
-earn 
+earn,
+coffee,
+earn,
 
-earn 
-acq 
+earn,
+acq,
 
 
-earn 
-ship 
-interest moneyfx 
+earn,
+ship,
+interest,moneyfx,
 
 
-earn 
+earn,
 
-acq 
+acq,
 
-grain 
-earn 
+grain,
+earn,
 
-earn 
-acq 
+earn,
+acq,
 
 
 
-acq 
-acq 
-acq 
+acq,
+acq,
+acq,
 
 
 
 
 
-earn 
+earn,
 
 
 
-earn 
-earn 
+earn,
+earn,
 
 
 
 
 
-earn 
-earn 
-acq 
-orange 
+earn,
+earn,
+acq,
+orange,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-earn 
-earn 
-earn 
+earn,
+earn,
+earn,
 
-acq 
-livestock carcass trade 
-reserves 
+acq,
+livestock,carcass,trade,
+reserves,
 
 
 
-grain corn wheat 
+grain,corn,wheat,
 
 
 
 
 
-earn 
+earn,
 
-sugar 
+sugar,
 
-acq 
+acq,
 
-acq 
-acq 
+acq,
+acq,
 
-grain wheat oilseed soybean 
+grain,wheat,oilseed,soybean,
 
-earn 
+earn,
 
 
-earn 
-acq 
-crude 
+earn,
+acq,
+crude,
 
-acq 
+acq,
 
-earn 
+earn,
 
 
 
 
-acq 
-trade 
+acq,
+trade,
 
-moneyfx trade 
+moneyfx,trade,
 
 
-earn 
-sugar 
-earn 
+earn,
+sugar,
+earn,
 
 
 
-earn 
+earn,
 
 
 
-earn 
+earn,
 
 
 
@@ -1829,38 +1829,38 @@ earn
 
 
 
-alum 
+alum,
 
 
-acq 
-acq 
-earn 
+acq,
+acq,
+earn,
 
-trade 
+trade,
 
 
-coffee 
-grain corn sorghum 
+coffee,
+grain,corn,sorghum,
 
-grain 
-earn 
-acq 
-vegoil 
-earn 
+grain,
+earn,
+acq,
+vegoil,
+earn,
 
-gas crude 
+gas,crude,
 
-earn 
+earn,
 
-acq 
-crude gas fuel 
+acq,
+crude,gas,fuel,
 
-gnp 
+gnp,
 
-acq earn 
-earn 
-acq 
-trade 
+acq,earn,
+earn,
+acq,
+trade,
 
 
 
@@ -1868,133 +1868,133 @@ trade
 
 
 
-trade 
-earn 
-earn 
+trade,
+earn,
+earn,
 
-crude 
+crude,
 
-earn 
-crude gas 
+earn,
+crude,gas,
 
-coffee 
+coffee,
 
-grain cotton rice oilseed soybean 
+grain,cotton,rice,oilseed,soybean,
 
 
-reserves 
-acq 
+reserves,
+acq,
 
 
-coffee 
-bop trade 
+coffee,
+bop,trade,
 
 
 
 
 
 
-gold 
-moneysupply 
+gold,
+moneysupply,
 
 
-grain wheat ship 
-ship 
+grain,wheat,ship,
+ship,
 
-ship crude 
+ship,crude,
 
 
-grain wheat 
+grain,wheat,
 
-crude 
-coffee 
+crude,
+coffee,
 
-moneysupply 
-reserves 
+moneysupply,
+reserves,
 
-grain rice 
-moneyfx 
-earn 
-gold 
-earn 
-acq 
+grain,rice,
+moneyfx,
+earn,
+gold,
+earn,
+acq,
 
 
 
-earn 
+earn,
 
-moneyfx dlr yen 
+moneyfx,dlr,yen,
 
 
-tin 
+tin,
 
-moneyfx interest 
-trade 
-moneysupply 
-ironsteel 
+moneyfx,interest,
+trade,
+moneysupply,
+ironsteel,
 
 
 
 
 
-reserves trade 
+reserves,trade,
 
-silver gold 
-moneyfx interest 
+silver,gold,
+moneyfx,interest,
 
 
-sugar 
+sugar,
 
-crude 
-moneyfx 
+crude,
+moneyfx,
 
-trade 
-grain corn 
+trade,
+grain,corn,
 
 
 
 
 
 
-gnp 
-coffee 
-trade bop 
+gnp,
+coffee,
+trade,bop,
 
-trade 
-trade bop 
-wpi 
-oilseed 
-moneyfx interest 
+trade,
+trade,bop,
+wpi,
+oilseed,
+moneyfx,interest,
 
 
-grain potato wheat barley mealfeed soymeal hog carcass livestock 
-interest 
+grain,potato,wheat,barley,mealfeed,soymeal,hog,carcass,livestock,
+interest,
 
 
 
-sugar 
-moneyfx interest 
+sugar,
+moneyfx,interest,
 
 
 
-crude ship 
+crude,ship,
 
-moneyfx interest 
-moneyfx 
+moneyfx,interest,
+moneyfx,
 
 
 
-acq 
+acq,
 
-acq 
-crude 
+acq,
+crude,
 
 
 
-acq 
-interest 
-acq 
+acq,
+interest,
+acq,
 
 
 
-jobs 
+jobs,

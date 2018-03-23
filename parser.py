@@ -62,7 +62,7 @@ def parseFile(filename):
 	print "Finished reading " + dataname
 	for x in range(0,len(topics)):
 		for topic in topics[x]:
-			outputstring=outputstring + topic.text + " "
+			outputstring=outputstring + topic.text + ","
 		#End For
 		outputstring=outputstring + "\n"
 	#End For

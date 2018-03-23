@@ -6,7 +6,7 @@ from string import digits
 import random
 
 count = list()
-topic = list()
+topics = list()
 testsplit = 1900
 tempArray = []
 
@@ -20,15 +20,15 @@ with open('titles.csv', 'r') as f:
 with open('topics2.csv','r') as f:
     for line in f:
         if line == '\n':
-            topic.append('none \n')
+            topics.append('none \n')
         else:
-            topic.append(line)
+            topics.append(line)
 
 
 #combines the two list to create a a single feature vector with 2 atributes word count
 countVector = list()
-for i in range(0, len(topic)):
-    output = count[i].strip('\n')+" "+topic[i].strip('\n')
+for i in range(0, len(topics)):
+    output = count[i].strip('\n')+" "+topics[i].strip('\n')
     countVector.append(output)
     tempArray.append(output)
 
@@ -42,10 +42,11 @@ print "Finshed printing feature vector..."
 xyPoints = tempArray[:testsplit]
 xPoint = list()
 yPoint = list()
-topic = list()
 rp = []
 #classifier data set
 pointsOfLast = tempArray[testsplit:]
+topicLast = topics[testsplit:]
+topic = list()
 
 #Save points of first 1900
 for i in range(0, len(xyPoints)):
@@ -69,6 +70,7 @@ ResultTopics = []
 xy = list()
 EuclideanDistance = []
 result = []
+NearestNeighbor = []
 print "printing distances...."
 for x in range(0, len(pointsOfLast)):
     #cordnates for thing that needs to be classfied
@@ -78,18 +80,20 @@ for x in range(0, len(pointsOfLast)):
     ty = []
     tx = []
 
+	
     for i in range(0, len(xyPoints)):
         #cordnates for known
         X2 = float(xPoint[i])
         Y2 = float(yPoint[i])
         point = tuple([0,0])
         distance = math.sqrt((X1 - X2)**2 + (Y1- Y2)**2)
-        print distance
+        #print distance
         #Gets the shortest distance
         if (distance > 1 and (distance < max(TempEuclideanDistance))):
             TempEuclideanDistance.append(distance)
             point = tuple([str(X2),str(Y2)])
-
+    
+    EuclideanDistance.append(TempEuclideanDistance)
 #loops through all topics and matches up data point to
     for a in range(0, len(rp)):
         if point == rp[a]:
@@ -99,7 +103,17 @@ for x in range(0, len(pointsOfLast)):
         #get the topic based on that point, this is the topic of theu unknown
     #print TempEuclideanDistance
 print "printing result"
-print result
+for i in range(0,len(EuclideanDistance)):
+    NearestNeighbor.append(topics[EuclideanDistance[i].index(min(EuclideanDistance[i]))])
 
-
+NumberCorrect = 0
+# Calculates accuracy of Naive Bayes and 1-nn
+for i in range(0,len(NearestNeighbor)):
+    words = NearestNeighbor[i].split(',')
+    for word in words:
+        if word in topicLast[i].split(','):
+            NumberCorrect += 1
+    print "Guess for test article " + str(i) + " : " + NearestNeighbor[i]
+	
+print "Accuracy: " + str(NumberCorrect) + "/100"
 #opens the avliable topics loop through all and get the topic based on the closest data point

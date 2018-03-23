@@ -25,6 +25,7 @@ with open('titles.csv', 'r') as f:
 #End with
 
 #Gets all the words that are used as topics for an article
+topics = []
 with open('topics.csv', 'r') as f:
     text = f.read()
 words = re.findall(r'\w+', text)
@@ -50,7 +51,8 @@ for word in words:
 	else:
 		word_counter[word] = 1
 #End For
-popular_titles = sorted(word_counter, key = word_counter.get, reverse = True)
+popular_words = sorted(word_counter, key = word_counter.get, reverse = True)
+popular_titles = popular_words[:1000]
 
 with open('titles.csv', 'r') as csvfile:
 	topicReader = csv.reader(csvfile, delimiter=',', quotechar=' ')
@@ -58,6 +60,7 @@ with open('titles.csv', 'r') as csvfile:
 		titles.append(row)
 	#End For
 #End With
+
 
 #Gets rid of all the topics in titles
 for topic in popular_topics:
@@ -72,13 +75,16 @@ for topic in popular_topics:
 
 total_num_docs = 2000
 tf_idf = []
+TitleFV = list()
+outputfile=open("FV1.txt","w")
+
 # Calculates tf-idf
 with open('titles.csv', 'r') as f:
     for line in f:
 		words_in_line = re.findall(r'\w+', line)
 		length = len(words_in_line)
 		title_words = {}
-		if length > 0:
+		if length > -1:
 			# gets words in each line
 			for word in words_in_line:
 				if word in title_words:
@@ -93,15 +99,42 @@ with open('titles.csv', 'r') as f:
 				tf_feature[word] = ((float(title_words[word])/length) * (math.log10(total_num_docs/idf[word])))
 			#End for
 			tf_idf.append(tf_feature)
+			
+			for word in words_in_line:
+				elementArray = list()
+				for i in range(0, len(popular_titles)):
+					# splits based on whitespace
+					vals = word.split()
+					# makes a 0 array when there are no titles
+					if len(vals) < 1:
+						elementArray.append(0)
+					else:
+						for k in range(0, len(vals)):
+							# gets rid of any whitespace if at end of string
+							if vals[k].rstrip() == popular_titles[i]:
+								x = tf_idf[len(tf_idf)-1][vals[k]]
+								elementArray.append(x)
+							else: 
+								elementArray.append(0)
+						#End For
+					#End Else
+				#End For
+			#End For
+			TitleFV.append(elementArray)
+			outputstring = ' '.join(str(e) for e in TitleFV[len(TitleFV)-1]) + ' , ' + topic[len(TitleFV)-1] +  '\n'
+			outputfile.write(outputstring)
 		#End if
 	#End for
 #End with
 
-print(tf_idf)
+print(len(titles))
 
-TopicFV = list()
+outputfile.close()
 
-'''I know this is an abomination, but it works'''
+'''
+TitleFV = list()
+
+I know this is an abomination, but it works
 for title in titles:
 	for element in title:
 		elementArray = list()
@@ -121,9 +154,9 @@ for title in titles:
 				#End For
 			#End Else
 		#End For
-		TopicFV.append(elementArray)
+		TitleFV.append(elementArray)
 	#End For
 #End For
 
 #Test
-#print(TopicFV)
+print(len(titles))'''

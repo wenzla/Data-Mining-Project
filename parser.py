@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 import os
 fileDir = os.path.dirname(os.path.realpath('__file__'))
 # The number below changes which files to parse. Use 22 to run all files
-numberOfFiles = 22
+numberOfFiles = 2
 
 # This function just makes it so we can iterate through the files so we don't have to run it
 # over and over again.
@@ -64,7 +64,7 @@ def parseFile(filename):
 		for topic in topics[x]:
 			outputstring=outputstring + topic.text + " "
 		#End For
-		outputstring=outputstring + ","
+		outputstring=outputstring + "\n"
 	#End For
 	#print (outputstring)
 	# Trims the last comma off of the outputstring
@@ -72,7 +72,7 @@ def parseFile(filename):
 	outfile.write(outputstring)
 	
 '''ACTUAL START OF APPLICATION'''
-outfile=open("topics.csv","w")
+outfile=open("topics2.csv","w")
 for counter in range (0,numberOfFiles):
 	dataNameString = makeString(counter)
 	dataname='Data/reut2-0' + dataNameString + '.sgm'

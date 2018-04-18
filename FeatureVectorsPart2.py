@@ -83,6 +83,7 @@ for word in words:
 #End For
 popular_words = sorted(word_counter, key = word_counter.get, reverse = True)
 popular_titles = popular_words[:1000]
+print popular_titles
 
 #Gets rid of all the topics in titles
 for topic in popular_topics:

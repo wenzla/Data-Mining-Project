@@ -188,15 +188,21 @@ for i in range(0,len(Clusters)):
     ClusterIndex.append(i)
 #end for
 
+# Loops until there is only 'one' node in the tree
 while len(Clusters) > 1:
     for i in range(0,len(Clusters) - 1):
+        # If I do not include this seemingly redundant if statement, it just fails
         if i < len(Clusters) - 1:
+            # Finds the vector which has the smallest euclidean distance (ties are broken by index order)
             firstFV = Clusters[i]
             candidateCluster = getLowestDistance(distances[i], i)
             pointIndex = Clusters.pop(candidateCluster[0])
             x = ClusterIndex.pop(candidateCluster[0])
+            # Make the cluster a tuple of the indexes
             ClusterIndex[i] = ClusterIndex[i], x
+            #Creates a new centroid vector to do distance calculations to
             Clusters[i] = getCentroid(pointIndex, firstFV)
+            #Redo distance calculations since  
             distances = getDistances(Clusters)
             print candidateCluster
         #end if
